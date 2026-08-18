@@ -1,4 +1,4 @@
-const fs = require('fs');
+const fs = require("fs")
 
 // fs.writeFile("hey.txt" , "Han Ayan" , (err)=>{
 //     if(err) console.log("Error");
@@ -31,4 +31,48 @@ const fs = require('fs');
 //     else console.log("created");
 // })
 
+
+
+
+// fs.unlink("data.txt" , (err)=>{
+//         if(err) console.log(err.message);
+//         else console.log("Removed");
+    
+    
+//     })
+    
+    
+    // fs.writeFile("data.txt", "Hello World", (err) => {
+    //     if (err) {
+    //         console.log(err);
+    //         return;
+    //     }
+    
+    //     console.log("File written successfully");
+    // });
+
+
+// fs.appendFile("data.txt" , " kese ho" , (err)=>{
+//     if(err) console.log(err.message);
+//     else console.log("Added");
+// })
+
+// fs.rename("data.txt" , "hello.txt" , (err)=>{
+//     if(err) console.log(err.message);
+//     else console.log("Change");
+    
+    
+// })
+
+
+// fs.copyFile("hello.txt" , "./copy/data.txt" , (err)=>{
+//     if(err) console.log(err.message);
+//     else console.log("Daaldiya");
+// })
+
+// Deleted Folder
+// fs.rm("./copy" , {recursive:true} , (err)=>{
+//     if(err) console.log(err.message);
+//     else console.log("Deleted Folder");    
+// })
 
