@@ -76,3 +76,29 @@ const fs = require("fs")
 //     else console.log("Deleted Folder");    
 // })
 
+// const http = require("http")
+// const server = http.createServer((req,res)=>{
+//     res.end("Hello World")
+// })
+// server.listen(3000)
+
+
+// fs.unlink("hello.txt" , (err)=>{
+//     if(err) console.log(err.message);
+//     else console.log("Removed");
+// })
+
+
+// fs.writeFile("app.js" , "" , (err)=>{
+//     if(err) console.log(err.message);
+//     else console.log("Created");
+// })
+
+// var value = require('./app')
+
+// console.log(value);
+
+
+// var data = require('./app')
+
+// console.log(data);
